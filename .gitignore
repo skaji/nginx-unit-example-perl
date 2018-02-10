@@ -1,0 +1,6 @@
+*.log
+*.pid
+*.sock
+/unit
+/perl
+/.build

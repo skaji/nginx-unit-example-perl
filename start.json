@@ -1,0 +1,14 @@
+{
+  "listeners": {
+    "*:8300": {
+      "application": "example"
+    }
+  },
+  "applications": {
+    "example": {
+      "type": "perl",
+      "processes": 5,
+      "script": "./app.psgi"
+    }
+  }
+}
