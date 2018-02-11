@@ -62,7 +62,8 @@ Hello world from PSGI!
 
 # TODO
 
-benchmark
+* benchmark
+* test it with [Plack::Test::Suite](https://metacpan.org/pod/Plack::Test::Suite)
 
 # License
 
