@@ -4,7 +4,7 @@ set -eu
 
 PERL_VERSION=5.26.1
 BUILD_DIR=.build
-TOP_DIR=$(cd $(dirname $0) &>/dev/null; pwd)
+TOP_DIR=$(cd $(dirname $0) >/dev/null 2>&1; pwd)
 LOG_FILE=$BUILD_DIR/build.log
 
 build_perl() {
